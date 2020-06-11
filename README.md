@@ -1,4 +1,1 @@
-# New Project Template
-
-This repository contains a template that can be used to seed a repository for a
-new Google open source project.
+This dir contains anlaysis parts of https://github.com/google/wikiloop-battlefield/issues/245
