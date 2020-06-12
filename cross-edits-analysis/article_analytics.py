@@ -73,6 +73,7 @@ def main(argv): # pylint: disable=C0116
     for i in range(min(5, len(article_titles))):
         print(article_titles[i])
 
+
     columns_to_count = ["ores_damaging", "ores_goodfaith"]
     # If multiplier is -1, then a higher value indicates an edit is "good" (less likely
     # to be vandalism). If multiplier is 1, then a higher value indicates an edit

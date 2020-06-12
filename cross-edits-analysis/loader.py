@@ -51,6 +51,7 @@ class Loader:
                 else:
                     self.df = self.df.merge(right=current_frame, how="outer")
 
+
     def load_csv(self, file_path_format_str, range_start, range_end, out_format="df"):
         '''Load a batch of csv files'''
 
