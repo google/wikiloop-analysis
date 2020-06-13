@@ -10,6 +10,7 @@ Python3: GPL-Compatible License. GPL-compatible doesn’t mean that we’re dist
 Pandas: New BSD License.
 Matplotlib: License based on PSF license. 
 
+
 # Usage Example
 Loading the First json data file and run article-based analysis: <br />
 $ python3 article_analytics.py --path ./data/cross_edits_tmp_ttl=72_revisioninfo_20200605_1023_segment-000##-of-00037.json --start 0 --stop 1 <br />
@@ -34,6 +35,7 @@ t: a percentage threshold for flagging anomal. Currently set at 50%. <br/>
 All log files are located in the cross-edits-analysis/log directory. Each directory holds the logs for the corresponding analysis script. <br />
 Format of log line: Anomaly of (metric name) of (column name) detected for (key: this can be article/author or article/author pair) during period from 
 (starting time of window) to (ending time of window), with a () percent difference from baseline. <br />
+
 
 
 
