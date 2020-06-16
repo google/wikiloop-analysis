@@ -73,13 +73,22 @@ def main(argv): # pylint: disable=C0116
     for i in range(min(5, len(article_titles))):
         print(article_titles[i])
 
+    columns_to_count = ["ores_damaging", "ores_goodfaith"]
+
+    articles_with_non_zero_scores = []
+    means = dict()
+    medians = dict()
+    for column in columns_to_count:
+        means[column] = []
+        medians[column] = []
+
     for article in article_titles:
         print("Now displaying statistics for article {}".format(article))
         edits_on_article = df.loc[df["title"] == article]
-        columns_to_count = ["ores_damaging", "ores_goodfaith"]
         fig, axes = plt.subplots(1, 2)
         fig.set_size_inches(18.5, 10.5)
         i = 0
+
         for column in columns_to_count:
             print("The mean of {} is {}".format(column, edits_on_article[column].mean()))
             print("The median of {} is {}".format(column, edits_on_article[column].median()))
@@ -90,6 +99,45 @@ def main(argv): # pylint: disable=C0116
         # Path cannot contain /, but some wikipedia article names contain the "/"
         # character, which we must remove
         plt.savefig("./graphs/article/Distribution_{}.png".format(article.replace("/", "")))
+        plt.close()
+
+        # Get the edits with non-zero ores score for time-series analysis
+        non_zero_articles = edits_on_article.loc[edits_on_article["ores_damaging"] != 0]
+        non_zero_count = non_zero_articles.shape[0]
+        if non_zero_count != 0:
+            articles_with_non_zero_scores.append(article)
+            for column in columns_to_count:
+                means[column].append(non_zero_articles[column].mean())
+                medians[column].append(non_zero_articles[column].median())
+        window_size = 10
+        if non_zero_count <= 1:
+            continue
+        else:
+            if non_zero_count < 10:
+                window_size = 1
+            non_zero_articles.sort_values(by="timestamp", ascending=True, inplace=True)
+            fig, axes = plt.subplots(1, 2)
+            fig.set_size_inches(18.5, 10.5)
+            i = 0
+            for column in columns_to_count:
+                axes[i].plot(non_zero_articles["timestamp"], non_zero_articles[column])
+                axes[i].set_title("Change of {} for article {}".format(column, article))
+                i += 1
+            plt.savefig("./graphs/article/Evolution_{}.png".format(article.replace("/", "")))
+            plt.close()
+
+    # Distribution of mean and median scores across articles
+    fig, axes = plt.subplots(2, len(columns_to_count))
+    fig.set_size_inches(37, 21)
+    for i in range(len(columns_to_count)):
+        axes[0][i].hist(means[columns_to_count[i]], bins=50)
+        axes[0][i].set_title("Mean of {} across all articles".format(columns_to_count[i]))
+        axes[1][i].hist(medians[columns_to_count[i]], bins=50)
+        axes[1][i].set_title("Median of {} across all articles".format(columns_to_count[i]))
+    plt.savefig("./graphs/aggregate/Mean_median_all_articles_all_columns_no_zero.png")
+    plt.close()
+
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
