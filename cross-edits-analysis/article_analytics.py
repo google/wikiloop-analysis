@@ -73,7 +73,6 @@ def main(argv): # pylint: disable=C0116
     for i in range(min(5, len(article_titles))):
         print(article_titles[i])
 
-
     columns_to_count = ["ores_damaging", "ores_goodfaith"]
     # If multiplier is -1, then a higher value indicates an edit is "good" (less likely
     # to be vandalism). If multiplier is 1, then a higher value indicates an edit
@@ -119,6 +118,7 @@ def main(argv): # pylint: disable=C0116
         plt.close()
 
         # Get the edits with non-zero ores score for time-series analysis
+
         non_zero_articles = edits_on_article.loc[edits_on_article["ores_damaging"] != 0].copy()
         non_zero_count = non_zero_articles.shape[0]
         if non_zero_count != 0:
@@ -177,9 +177,6 @@ def main(argv): # pylint: disable=C0116
 
                 window_index = window_index + 1
 
-
-
-
     # Distribution of mean and median scores across articles
     fig, axes = plt.subplots(2, len(columns_to_count))
     fig.set_size_inches(37, 21)
@@ -192,7 +189,6 @@ def main(argv): # pylint: disable=C0116
     plt.close()
 
     window_log_file.close()
-
 
 
 if __name__ == "__main__":
