@@ -53,13 +53,13 @@ def main(argv): # pylint: disable=C0116
     fig.set_size_inches(18.5, 10.5)
     i = 0
     for column in columns_to_count:
-        print("The mean of {} is {}".format(column, df[column].mean()))
-        print("The median of {} is {}".format(column, df[column].median()))
-        print("The std of {} is {}".format(column, df[column].std()))
+        print("The mean of {} is {:.2f}".format(column, df[column].mean()))
+        print("The median of {} is {:.2f}".format(column, df[column].median()))
+        print("The std of {} is {:.2f}".format(column, df[column].std()))
         zero_count = df[df[column] == 0].shape[0]
         row_count = df.shape[0]
         print("The count of zeros of {} is {}".format(column, zero_count))
-        print("The percentage of zeros of {} is {}%".format(column, zero_count / row_count))
+        print("The percentage of zeros of {} is {:.2f}%".format(column, zero_count / row_count))
         axes[i].hist(df[column], bins=20)
         axes[i].set_title("Distribution of {}".format(column))
         i += 1
@@ -74,25 +74,37 @@ def main(argv): # pylint: disable=C0116
         print(article_titles[i])
 
     columns_to_count = ["ores_damaging", "ores_goodfaith"]
+    # If multiplier is -1, then a higher value indicates an edit is "good" (less likely
+    # to be vandalism). If multiplier is 1, then a higher value indicates an edit
+    # is "bad" (more likely to be vandalism).
+    # This is because for columns where higher value is "good", we only watch for
+    # abnormally low values (we care less about the abnormally high values), 
+    # and for columns where higher value is "bad", we only watch for the 
+    # abnormally high values. 
+    column_diff_multiplier = {"ores_damaging": 1, "ores_goodfaith": -1}
 
     articles_with_non_zero_scores = []
     means = dict()
     medians = dict()
+    anomaly_threshold = 50 # >50% difference during window period is flagged as anomaly event
+    window_log_file = open("./log/article/sliding_window_anomaly_{}_start_{}_end_{}.txt". \
+        format(anomaly_threshold, range_start, range_end), "w")
+
     for column in columns_to_count:
         means[column] = []
         medians[column] = []
 
     for article in article_titles:
-        print("Now displaying statistics for article {}".format(article))
+        #print("Now displaying statistics for article {}".format(article))
         edits_on_article = df.loc[df["title"] == article]
         fig, axes = plt.subplots(1, 2)
         fig.set_size_inches(18.5, 10.5)
         i = 0
 
         for column in columns_to_count:
-            print("The mean of {} is {}".format(column, edits_on_article[column].mean()))
-            print("The median of {} is {}".format(column, edits_on_article[column].median()))
-            print("The std of {} is {}".format(column, edits_on_article[column].std()))
+            #print("The mean of {} is {:.2f}".format(column, edits_on_article[column].mean()))
+            #print("The median of {} is {:.2f}".format(column, edits_on_article[column].median()))
+            #print("The std of {} is {:.2f}".format(column, edits_on_article[column].std()))
             axes[i].hist(edits_on_article[column], bins=20)
             axes[i].set_title("Distribution of {} for article {}".format(column, article))
             i += 1
@@ -102,13 +114,15 @@ def main(argv): # pylint: disable=C0116
         plt.close()
 
         # Get the edits with non-zero ores score for time-series analysis
-        non_zero_articles = edits_on_article.loc[edits_on_article["ores_damaging"] != 0]
+        non_zero_articles = edits_on_article.loc[edits_on_article["ores_damaging"] != 0].copy()
         non_zero_count = non_zero_articles.shape[0]
         if non_zero_count != 0:
             articles_with_non_zero_scores.append(article)
             for column in columns_to_count:
                 means[column].append(non_zero_articles[column].mean())
                 medians[column].append(non_zero_articles[column].median())
+
+        # Constants for sliding window analysis
         window_size = 10
         if non_zero_count <= 1:
             continue
@@ -126,6 +140,41 @@ def main(argv): # pylint: disable=C0116
             plt.savefig("./graphs/article/Evolution_{}.png".format(article.replace("/", "")))
             plt.close()
 
+            # Sliding window analysis to identify periods of extreme values
+            window_index = 0
+            baselines_mean = dict()
+            baselines_median = dict()
+            for column in columns_to_count:
+                baselines_mean[column] = non_zero_articles[column].mean()
+                baselines_median[column] = non_zero_articles[column].median()
+
+            while window_index + window_size <= non_zero_count: 
+                window_frame = non_zero_articles[window_index: window_index + window_size]
+                starting_time = non_zero_articles.iloc[window_index]["timestamp"]
+                ending_time = non_zero_articles.iloc[window_index + window_size - 1]["timestamp"]
+                for column in columns_to_count:
+                    mean_diff = column_diff_multiplier[column] * \
+                                (window_frame[column].mean() - baselines_mean[column])
+                    median_diff = column_diff_multiplier[column] * \
+                                  (window_frame[column].median() - baselines_median[column])
+                    mean_diff_percent = mean_diff / baselines_mean[column] * 100.0
+                    median_diff_percent = median_diff / baselines_median[column] * 100.0
+                    if mean_diff_percent > anomaly_threshold:
+                        window_log_file.write(("Anomaly of mean of {} detected for {} during" 
+                            "period from {} to {}, with a {:.2f} percent difference"
+                            "from baseline.\n").format(\
+                            column, article, starting_time, ending_time, mean_diff_percent))
+                    if median_diff_percent > anomaly_threshold:
+                        window_log_file.write(("Anomaly of median of {} detected for {} "
+                            "during period from {} to {}, with a {:.2f} percent difference "
+                            "from baseline.\n").format(\
+                            column, article, starting_time, ending_time, median_diff_percent))
+
+                window_index = window_index + 1
+
+
+
+
     # Distribution of mean and median scores across articles
     fig, axes = plt.subplots(2, len(columns_to_count))
     fig.set_size_inches(37, 21)
@@ -136,6 +185,8 @@ def main(argv): # pylint: disable=C0116
         axes[1][i].set_title("Median of {} across all articles".format(columns_to_count[i]))
     plt.savefig("./graphs/aggregate/Mean_median_all_articles_all_columns_no_zero.png")
     plt.close()
+
+    window_log_file.close()
 
 
 
