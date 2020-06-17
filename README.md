@@ -21,7 +21,6 @@ Loading all 37 json data files and run author-based analysis: <br />
 $ python3 author_analytics.py --path ./data/1023/segment-000##-of-00037.json --start 0 --stop 37 <br />
 
 # Formula for Sliding Window Anomaly Detection
-<<<<<<< HEAD
 A window will be flagged as anomaly if it satisfies the following condition: <br />
 <img src="https://render.githubusercontent.com/render/math?math=(M(W) - M(S)) * k / M(S) > t"> <br />
 M: metric considerd. Currently supports mean and median. <br />
