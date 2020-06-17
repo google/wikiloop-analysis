@@ -22,14 +22,13 @@ $ python3 author_analytics.py --path ./data/cross_edits_tmp_ttl=72_revisioninfo_
 
 # Formula for Sliding Window Anomaly Detection
 A window will be flagged as anomaly if it satisfy the following condition: <br />
-(M(window) - M(set)) * multiplier / M(set) > threshold <br />
-<img src="https://render.githubusercontent.com/render/math?math=(M(W) - M(S)) * k / M(S) > t"> 
+<img src="https://render.githubusercontent.com/render/math?math=(M(W) - M(S)) * k / M(S) > t"> <br />
 M: metric considerd. Currently supports mean and median. <br />
-window: the window frame under consideration. <br />
-set: the complete dataset of the given key. This can be all edits on the same article/by the same author, depending on the key used. <br />
-multiplier: value is either 1 or -1. It is 1 if we are concerned with abnormally high values only, and -1 if we are concerned with abnormally
+W: the window frame under consideration. <br />
+S: the complete dataset of the given key. This can be all edits on the same article/by the same author, depending on the key used. <br />
+k: value is either 1 or -1. It is 1 if we are concerned with abnormally high values only, and -1 if we are concerned with abnormally
 low values only. <br />
-threshold: a percentage threshold for flagging anomal. Currently set at 50%. <br/> 
+t: a percentage threshold for flagging anomal. Currently set at 50%. <br/> 
 
 # Log Files and Format
 All log files are located in the cross-edits-analysis/log directory. Each directory holds the logs for the corresponding analysis script. <br />
