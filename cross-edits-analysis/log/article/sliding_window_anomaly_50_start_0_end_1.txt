@@ -1,0 +1,164 @@
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-02-17 10:01:02 to 2019-09-13 12:39:19, with a 94.23 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-02-17 21:21:10 to 2019-11-03 22:43:09, with a 155.77 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-02-18 04:55:31 to 2019-11-27 09:57:46, with a 223.08 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-02-20 13:08:39 to 2019-11-27 09:58:07, with a 95.54 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-02-20 13:08:39 to 2019-11-27 09:58:07, with a 444.23 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-02-20 20:17:32 to 2019-11-27 09:59:06, with a 94.84 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-02-20 20:17:32 to 2019-11-27 09:59:06, with a 444.23 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-04-24 12:54:08 to 2019-11-28 11:42:00, with a 144.02 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-04-24 12:54:08 to 2019-11-28 11:42:00, with a 871.15 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-08-08 05:32:48 to 2019-11-28 11:43:25, with a 198.90 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-08-08 05:32:48 to 2019-11-28 11:43:25, with a 1076.92 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-08-27 18:51:47 to 2019-11-28 11:44:12, with a 221.65 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-08-27 18:51:47 to 2019-11-28 11:44:12, with a 1076.92 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-09-12 07:46:35 to 2019-11-28 11:44:37, with a 242.14 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-09-12 07:46:35 to 2019-11-28 11:44:37, with a 1580.77 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-09-13 12:39:19 to 2019-12-30 05:51:17, with a 236.35 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-09-13 12:39:19 to 2019-12-30 05:51:17, with a 1580.77 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-11-03 22:43:09 to 2020-02-16 16:32:12, with a 213.91 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-11-03 22:43:09 to 2020-02-16 16:32:12, with a 1575.00 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-11-27 09:57:46 to 2020-04-13 11:19:14, with a 233.38 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-11-27 09:57:46 to 2020-04-13 11:19:14, with a 1861.54 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-11-27 09:58:07 to 2020-04-19 15:49:26, with a 188.11 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-11-27 09:58:07 to 2020-04-19 15:49:26, with a 1344.23 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-11-27 09:59:06 to 2020-05-13 09:51:37, with a 126.50 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-11-27 09:59:06 to 2020-05-13 09:51:37, with a 657.69 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Kings Cross, New South Wales duringperiod from 2019-11-28 11:42:00 to 2020-05-13 09:55:31, with a 137.60 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Kings Cross, New South Wales during period from 2019-11-28 11:42:00 to 2020-05-13 09:55:31, with a 757.69 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-02-25 14:11:37 to 2019-08-08 21:56:13, with a 58.73 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-02-25 14:11:37 to 2019-08-08 21:56:13, with a 391.49 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-02-25 14:21:37 to 2019-09-23 13:59:03, with a 90.72 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-02-25 14:21:37 to 2019-09-23 13:59:03, with a 720.21 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-03-05 05:20:29 to 2019-09-23 13:59:26, with a 87.66 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-03-05 05:20:29 to 2019-09-23 13:59:26, with a 720.21 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-04-17 22:09:31 to 2019-10-09 15:28:24, with a 107.48 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-04-17 22:09:31 to 2019-10-09 15:28:24, with a 739.36 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-04-17 22:48:41 to 2019-10-10 06:57:29, with a 86.68 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-04-17 22:48:41 to 2019-10-10 06:57:29, with a 720.21 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-06-07 04:01:59 to 2019-10-31 20:57:58, with a 87.11 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-06-07 04:01:59 to 2019-10-31 20:57:58, with a 720.21 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-08-07 20:27:54 to 2019-10-31 23:45:31, with a 86.01 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-08-07 20:27:54 to 2019-10-31 23:45:31, with a 720.21 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-08-07 20:29:40 to 2019-10-31 23:51:28, with a 74.08 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-08-07 20:29:40 to 2019-10-31 23:51:28, with a 512.77 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-08-07 21:13:31 to 2019-11-03 13:41:32, with a 236.17 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-08-08 21:56:13 to 2019-11-24 20:04:48, with a 63.44 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-08-08 21:56:13 to 2019-11-24 20:04:48, with a 236.17 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-09-23 13:59:03 to 2019-11-24 20:05:06, with a 112.77 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-09-23 13:59:26 to 2019-12-06 14:00:29, with a 112.77 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-10-09 15:28:24 to 2019-12-06 14:01:11, with a 97.94 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-10-09 15:28:24 to 2019-12-06 14:01:11, with a 236.17 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-10-10 06:57:29 to 2019-12-06 14:01:55, with a 73.78 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-10-10 06:57:29 to 2019-12-06 14:01:55, with a 112.77 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-10-31 20:57:58 to 2019-12-31 17:55:22, with a 66.50 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-10-31 23:45:31 to 2020-01-10 15:26:00, with a 110.23 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-10-31 23:45:31 to 2020-01-10 15:26:00, with a 178.72 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-10-31 23:51:28 to 2020-01-14 02:57:59, with a 111.89 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Rhinovirus during period from 2019-10-31 23:51:28 to 2020-01-14 02:57:59, with a 178.72 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-11-03 13:41:32 to 2020-01-19 16:36:26, with a 104.24 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Rhinovirus duringperiod from 2019-11-24 20:04:48 to 2020-01-23 07:27:04, with a 100.75 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2019-03-04 01:00:54 to 2019-05-22 02:39:00, with a 66.67 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2019-03-04 01:01:47 to 2019-05-27 15:58:06, with a 54.17 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-01-23 08:36:22 to 2020-03-02 02:01:16, with a 50.18 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-01-23 08:44:50 to 2020-04-05 02:39:07, with a 52.88 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-01-23 08:48:56 to 2020-04-05 02:41:30, with a 56.57 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-01-23 08:51:42 to 2020-04-05 02:44:04, with a 69.14 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-01-31 04:13:50 to 2020-04-05 02:45:23, with a 84.03 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-01-31 04:13:50 to 2020-04-05 02:45:23, with a 55.95 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-02-11 05:21:54 to 2020-04-05 02:48:33, with a 78.01 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-02-11 05:23:01 to 2020-04-05 02:50:17, with a 84.79 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-02-11 05:23:01 to 2020-04-05 02:50:17, with a 64.88 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-03-02 01:58:29 to 2020-04-05 02:52:21, with a 99.23 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-03-02 01:58:29 to 2020-04-05 02:52:21, with a 100.00 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Bobby (given name) duringperiod from 2020-03-02 02:01:16 to 2020-04-05 02:53:25, with a 55.97 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-03-02 02:01:16 to 2020-04-05 02:53:25, with a 100.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-03-02 02:01:19 to 2020-04-05 02:59:49, with a 100.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-04-05 02:39:07 to 2020-04-05 03:02:48, with a 100.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-04-05 02:41:30 to 2020-04-05 03:06:22, with a 123.21 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-04-05 02:44:04 to 2020-04-05 03:07:14, with a 123.21 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-04-05 02:45:23 to 2020-04-05 03:08:17, with a 111.31 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-04-05 02:48:33 to 2020-05-01 22:50:19, with a 111.31 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Bobby (given name) during period from 2020-04-05 02:50:17 to 2020-05-02 00:05:57, with a 90.48 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Gilt-head bream during period from 2019-01-03 11:52:47 to 2019-12-17 15:25:51, with a 86.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Gilt-head bream during period from 2019-02-02 12:13:51 to 2019-12-26 16:27:39, with a 86.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Gilt-head bream during period from 2019-02-09 12:09:28 to 2020-01-10 15:09:50, with a 86.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Gilt-head bream during period from 2019-02-10 16:15:24 to 2020-02-15 11:39:58, with a 86.70 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Eucalyptus rudis duringperiod from 2020-05-26 11:02:10 to 2020-05-26 11:02:10, with a 58.82 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Eucalyptus rudis during period from 2020-05-26 11:02:10 to 2020-05-26 11:02:10, with a 63.64 percent difference from baseline.
+Anomaly of median of ores_damaging detected for 1965 Boston Patriots season during period from 2019-02-15 18:54:43 to 2020-01-01 19:28:42, with a 68.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for 1965 Boston Patriots season during period from 2020-01-01 08:18:10 to 2020-01-01 19:36:21, with a 68.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for 1965 Boston Patriots season during period from 2020-01-01 08:29:25 to 2020-01-01 19:37:22, with a 68.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for 1965 Boston Patriots season during period from 2020-01-01 08:31:23 to 2020-01-02 22:36:45, with a 66.79 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for El Cocuy duringperiod from 2020-04-11 11:27:15 to 2020-04-11 11:27:15, with a 58.00 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for El Cocuy during period from 2020-04-11 11:27:15 to 2020-04-11 11:27:15, with a 58.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Texarkana, Arkansas during period from 2018-12-11 09:43:39 to 2019-10-30 09:59:33, with a 54.17 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for List of Lambda Sigma Upsilon chapters duringperiod from 2019-01-29 21:59:16 to 2019-01-29 23:16:16, with a 58.18 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 21:59:16 to 2019-01-29 23:16:16, with a 118.18 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for List of Lambda Sigma Upsilon chapters duringperiod from 2019-01-29 22:42:17 to 2019-01-29 23:21:15, with a 62.46 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 22:42:17 to 2019-01-29 23:21:15, with a 128.48 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for List of Lambda Sigma Upsilon chapters duringperiod from 2019-01-29 22:54:09 to 2019-01-29 23:22:48, with a 58.03 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 22:54:09 to 2019-01-29 23:22:48, with a 128.48 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for List of Lambda Sigma Upsilon chapters duringperiod from 2019-01-29 22:55:23 to 2019-01-29 23:23:29, with a 58.03 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 22:55:23 to 2019-01-29 23:23:29, with a 128.48 percent difference from baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 22:56:14 to 2019-01-29 23:24:25, with a 115.76 percent difference from baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 22:57:43 to 2019-01-29 23:25:34, with a 106.67 percent difference from baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 22:59:41 to 2019-01-29 23:27:49, with a 70.30 percent difference from baseline.
+Anomaly of median of ores_damaging detected for List of Lambda Sigma Upsilon chapters during period from 2019-01-29 23:01:16 to 2019-01-29 23:28:55, with a 56.97 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Dedekind-infinite set duringperiod from 2019-04-25 13:38:12 to 2019-04-25 13:38:12, with a 78.02 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Dedekind-infinite set during period from 2019-04-25 13:38:12 to 2019-04-25 13:38:12, with a 184.21 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Dedekind-infinite set duringperiod from 2019-08-31 19:14:14 to 2019-08-31 19:14:14, with a 58.24 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Dedekind-infinite set during period from 2019-08-31 19:14:14 to 2019-08-31 19:14:14, with a 152.63 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Mölbling duringperiod from 2020-02-11 06:48:45 to 2020-02-11 06:48:45, with a 61.90 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Mölbling during period from 2020-02-11 06:48:45 to 2020-02-11 06:48:45, with a 61.90 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Shaky Ground duringperiod from 2019-06-27 23:30:54 to 2019-06-27 23:30:54, with a 153.78 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Shaky Ground during period from 2019-06-27 23:30:54 to 2019-06-27 23:30:54, with a 277.50 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Competition number duringperiod from 2019-09-22 22:59:28 to 2020-04-10 04:11:22, with a 63.67 percent differencefrom baseline.
+Anomaly of mean of ores_damaging detected for Erigavo Airport duringperiod from 2019-07-30 23:20:52 to 2019-07-30 23:20:52, with a 92.35 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Erigavo Airport during period from 2019-07-30 23:20:52 to 2019-07-30 23:20:52, with a 92.35 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-04 21:56:19 to 2019-02-10 01:40:53, with a 58.28 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-04 21:56:19 to 2019-02-10 01:40:53, with a 536.27 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-05 00:53:34 to 2019-02-10 01:40:58, with a 57.27 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-05 00:53:34 to 2019-02-10 01:40:58, with a 536.27 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-09 06:52:10 to 2019-02-10 01:43:06, with a 91.54 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-09 06:52:10 to 2019-02-10 01:43:06, with a 1107.84 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:37:52 to 2019-02-10 01:43:28, with a 113.83 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:37:52 to 2019-02-10 01:43:28, with a 1107.84 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:38:22 to 2019-02-10 01:44:02, with a 84.63 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:38:22 to 2019-02-10 01:44:02, with a 1013.73 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:38:56 to 2019-02-10 01:44:19, with a 119.09 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:38:56 to 2019-02-10 01:44:19, with a 1107.84 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:39:22 to 2019-02-10 01:47:28, with a 92.55 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:39:22 to 2019-02-10 01:47:28, with a 1049.02 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:39:59 to 2019-02-21 14:27:45, with a 68.07 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:39:59 to 2019-02-21 14:27:45, with a 524.51 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:40:32 to 2019-02-22 14:47:27, with a 68.43 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:40:32 to 2019-02-22 14:47:27, with a 524.51 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Ocala, Florida duringperiod from 2019-02-10 01:40:53 to 2019-03-05 19:31:38, with a 55.12 percent differencefrom baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:40:53 to 2019-03-05 19:31:38, with a 517.65 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:43:06 to 2019-03-20 11:14:03, with a 315.69 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-02-10 01:43:28 to 2019-03-23 13:30:21, with a 315.69 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-03-28 21:55:14 to 2019-06-08 20:43:38, with a 124.51 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-04-08 03:56:30 to 2019-06-08 21:56:17, with a 105.88 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-06-11 20:14:28 to 2019-07-21 04:13:50, with a 73.53 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-06-13 20:16:41 to 2019-07-21 04:17:55, with a 73.53 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-06-13 20:17:26 to 2019-08-01 23:01:33, with a 96.08 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-06-18 18:39:45 to 2019-12-03 13:34:07, with a 160.78 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-06-28 06:57:11 to 2019-12-03 13:34:34, with a 160.78 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-07-10 17:54:30 to 2019-12-31 00:54:02, with a 160.78 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-07-10 17:56:13 to 2020-02-05 03:07:46, with a 250.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-07-10 17:59:15 to 2020-02-29 17:13:04, with a 202.94 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-07-19 01:28:35 to 2020-03-01 15:34:05, with a 138.24 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-08-01 23:01:33 to 2020-03-20 01:13:35, with a 80.39 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-12-03 13:34:07 to 2020-03-24 16:20:10, with a 54.90 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-12-03 13:34:34 to 2020-03-24 16:21:16, with a 54.90 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2019-12-31 00:54:02 to 2020-04-02 22:10:22, with a 166.67 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-02-05 03:07:46 to 2020-04-02 22:11:06, with a 241.18 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-02-29 17:13:04 to 2020-04-02 23:51:37, with a 166.67 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-03-01 15:34:05 to 2020-04-19 19:45:41, with a 215.69 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-03-01 17:07:26 to 2020-04-20 14:40:07, with a 389.22 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-03-09 21:01:25 to 2020-04-27 21:46:49, with a 389.22 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-03-20 01:13:35 to 2020-04-27 23:24:44, with a 389.22 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-03-24 16:20:10 to 2020-05-05 19:05:21, with a 550.98 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-03-24 16:21:16 to 2020-05-08 19:39:20, with a 550.98 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-04-02 22:10:22 to 2020-05-13 14:02:21, with a 382.35 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Ocala, Florida during period from 2020-04-02 22:11:06 to 2020-05-13 14:03:46, with a 83.33 percent difference from baseline.
