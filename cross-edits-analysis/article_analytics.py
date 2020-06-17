@@ -118,7 +118,6 @@ def main(argv): # pylint: disable=C0116
         plt.close()
 
         # Get the edits with non-zero ores score for time-series analysis
-
         non_zero_articles = edits_on_article.loc[edits_on_article["ores_damaging"] != 0].copy()
         non_zero_count = non_zero_articles.shape[0]
         if non_zero_count != 0:
