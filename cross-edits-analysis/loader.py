@@ -49,7 +49,7 @@ class Loader:
                 if self.df is None:
                     self.df = current_frame
                 else:
-                    self.df.merge(right=current_frame, how="outer")
+                    self.df = self.df.merge(right=current_frame, how="outer")
 
     def load_csv(self, file_path_format_str, range_start, range_end, out_format="df"):
         '''Load a batch of csv files'''
@@ -59,6 +59,7 @@ class Loader:
         '''Return the current loaded data files as single output object. Files are automatically
         combined upon loading. Currently only supports Pandas DataFrame. '''
         if out_format == "df":
+            print("{} revisions loaded".format(self.df.shape[0]))
             return self.df
         return None
 

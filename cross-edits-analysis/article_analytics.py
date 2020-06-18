@@ -94,8 +94,12 @@ def main(argv): # pylint: disable=C0116
         means[column] = []
         medians[column] = []
 
+    article_index = 0
     for article in article_titles:
-        #print("Now displaying statistics for article {}".format(article))
+        if article_index % 50 == 0:
+            print("Now at article {}, index {}".format(article, article_index))
+        article_index += 1
+
         edits_on_article = df.loc[df["title"] == article]
         fig, axes = plt.subplots(1, 2)
         fig.set_size_inches(18.5, 10.5)
@@ -160,8 +164,8 @@ def main(argv): # pylint: disable=C0116
                     mean_diff_percent = mean_diff / baselines_mean[column] * 100.0
                     median_diff_percent = median_diff / baselines_median[column] * 100.0
                     if mean_diff_percent > anomaly_threshold:
-                        window_log_file.write(("Anomaly of mean of {} detected for {} during" 
-                            "period from {} to {}, with a {:.2f} percent difference"
+                        window_log_file.write(("Anomaly of mean of {} detected for {} during " 
+                            "period from {} to {}, with a {:.2f} percent difference "
                             "from baseline.\n").format(\
                             column, article, starting_time, ending_time, mean_diff_percent))
                     if median_diff_percent > anomaly_threshold:

@@ -14,14 +14,14 @@ Matplotlib: License based on PSF license.
 Loading the First json data file and run article-based analysis: <br />
 $ python3 article_analytics.py --path ./data/cross_edits_tmp_ttl=72_revisioninfo_20200605_1023_segment-000##-of-00037.json --start 0 --stop 1 <br />
 Loading all 37 json data files and run article-based analysis: <br />
-$ python3 article_analytics.py --path ./data/cross_edits_tmp_ttl=72_revisioninfo_20200605_1023_segment-000##-of-00037.json --start 0 --stop 37 <br />
+$ python3 article_analytics.py --path ./data/1023/segment-000##-of-00037.json --start 0 --stop 37 <br />
 Loading the First json data file and run author-based analysis: <br />
 $ python3 author_analytics.py --path ./data/cross_edits_tmp_ttl=72_revisioninfo_20200605_1023_segment-000##-of-00037.json --start 0 --stop 1 <br />
 Loading all 37 json data files and run author-based analysis: <br />
-$ python3 author_analytics.py --path ./data/cross_edits_tmp_ttl=72_revisioninfo_20200605_1023_segment-000##-of-00037.json --start 0 --stop 37 <br />
+$ python3 author_analytics.py --path ./data/1023/segment-000##-of-00037.json --start 0 --stop 37 <br />
 
 # Formula for Sliding Window Anomaly Detection
-A window will be flagged as anomaly if it satisfy the following condition: <br />
+A window will be flagged as anomaly if it satisfies the following condition: <br />
 <img src="https://render.githubusercontent.com/render/math?math=(M(W) - M(S)) * k / M(S) > t"> <br />
 M: metric considerd. Currently supports mean and median. <br />
 W: the window frame under consideration. <br />
