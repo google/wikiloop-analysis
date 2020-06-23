@@ -34,9 +34,28 @@ class Engine:
             df: the combined dataframe supplied by the data loader class. 
             range_start: the starting index of the input files.
             range_end: the ending index of the input files. Notice that we use Pythonic
-                       indexing: start is inclusive while end is exclusive. 
+                       indexing: start is inclusive while end is exclusive.
+            columns_to_count: columns that are used for analytics.
+            key: the key to group the dataset by
+            key_column_name: name of the key column in string.
+            group_count: number of groups
+            anomaly_threshold: percentage threshold for anomaly. Used for sliding window analysis.
+            window_log_file: log file for anomaly incidents identified. 
         Public Methods:
             get_command_line_input: provides a standardized command-line prompt for user.
+            open_log_file: opens the required log file.
+            display_aggregate_stats: shows the aggregate statistics of the dataset on command line.
+            set_key: set the group-by key of the analysis Engine.
+            fill_in_missing_key: automatically replaces empty keys.
+            iterate_per_key: core method for analysis. Iterates any number of tasks across all 
+                             groups. Each task must be a method that takes in 3 arguments: 
+                             the group, the group-id and the group index (in all groups).
+            display_per_group_stats: a built-in task that prints each group's stats on console.
+            plot_evolution_over_time: a built-in task that plots the evolution of both scores
+                                      against timestamp.
+            sliding_window_analysis: a built-in task to perform sliding window analysis on a group.
+                                     For detailed explanation as well as formula, see README.
+            cleanup: performs cleanup upon exiting.
     '''
 
     def __init__(self):
@@ -48,7 +67,6 @@ class Engine:
         self.key = ""
         self.key_column_name = ""
         self.group_count = 0
-
         self.anomaly_threshold = 50 # >50% difference during window period is flagged as anomaly
         self.window_log_file = ""
 
@@ -87,7 +105,7 @@ class Engine:
     def open_log_file(self):
         '''Open(and if not present, create) an anomaly log file'''
         self.window_log_file = open("./log/{}/sliding_window_anomaly_{}_start_{}_end_{}.txt".\
-                       format(self.key, self.anomaly_threshold, self.range_start, self.range_end), "w") 
+                       format(self.key, self.anomaly_threshold, self.range_start, self.range_end), "w+") 
 
     def display_aggregate_stats(self):
         '''Show aggregate statistics of the dataset. Metrics include mean, median 
@@ -115,22 +133,20 @@ class Engine:
         self.key = key_string
         self.key_column_name = key_column_name
 
-    def iterate_per_key_self(self, operation):
+    def fill_in_missing_key(self):
+        '''For some key columns, there exists empty values. We must replace
+        them with values from other columns.'''
+        if self.key == "author":
+            self.df.author[self.df.author == ""] = self.df.ip 
+
+    def iterate_per_key(self, *argv):
         '''Perform required operation on each group, grouped by key column.
            The operation must be a instance method of the Engine class.'''
         self.group_count = len(self.df[self.key_column_name].unique())
         index = 0
         for group in self.df[self.key_column_name].unique():
-            operation(self.df.loc[self.df[self.key_column_name] == group], group, index)
-            index += 1
-
-    def iterate_per_key_custom(self, operation):
-        '''Perform required operation on each group, grouped by key column.
-           The operation may be supplied by the user.'''
-        self.group_count = len(self.df[self.key_column_name].unique())
-        index = 0
-        for group in self.df[self.key_column_name].unique():
-            operation(self.df.loc[self.df[self.key_column_name] == group], group, index) 
+            for operation in argv:
+                operation(self.df.loc[self.df[self.key_column_name] == group], group, index)
             index += 1
 
     def display_per_group_stats(self, group, group_key, index):
