@@ -1,0 +1,98 @@
+Anomaly of median of ores_damaging detected for  during period from 2019-01-30 04:29:52 to 2019-02-10 01:40:53, with a 159.92 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-01-30 04:34:30 to 2019-02-10 01:43:06, with a 52.12 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-01-30 04:34:30 to 2019-02-10 01:43:06, with a 169.62 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-01-30 04:34:30 to 2019-02-10 01:43:06, with a 50.95 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-01-30 04:42:22 to 2019-02-10 01:43:28, with a 66.90 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-01-30 04:42:22 to 2019-02-10 01:43:28, with a 169.62 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-01-30 04:42:22 to 2019-02-10 01:43:28, with a 50.95 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-02-02 12:13:51 to 2019-02-10 01:44:19, with a 88.19 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-02 12:13:51 to 2019-02-10 01:44:19, with a 172.78 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-02-02 12:13:51 to 2019-02-10 01:44:19, with a 52.38 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-02-04 21:56:19 to 2019-02-10 16:15:24, with a 71.03 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-04 21:56:19 to 2019-02-10 16:15:24, with a 169.62 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-02-04 21:56:19 to 2019-02-10 16:15:24, with a 50.95 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-02-10 01:37:52 to 2019-02-13 19:24:42, with a 94.44 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-10 01:37:52 to 2019-02-13 19:24:42, with a 172.78 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-02-10 01:37:52 to 2019-02-13 19:24:42, with a 52.38 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-02-10 01:38:56 to 2019-03-04 01:00:54, with a 79.07 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-10 01:38:56 to 2019-03-04 01:00:54, with a 170.68 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-02-10 01:38:56 to 2019-03-04 01:00:54, with a 52.38 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-02-10 01:39:22 to 2019-03-04 01:01:47, with a 66.68 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-10 01:39:22 to 2019-03-04 01:01:47, with a 170.68 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-02-10 01:39:22 to 2019-03-04 01:01:47, with a 52.38 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-02-10 01:40:32 to 2019-03-04 01:04:10, with a 54.36 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-10 01:40:32 to 2019-03-04 01:04:10, with a 150.42 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-02-10 01:40:53 to 2019-03-04 01:08:55, with a 61.18 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-03-04 01:09:36 to 2019-04-17 22:09:31, with a 67.09 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-03-04 01:10:34 to 2019-04-19 12:36:08, with a 73.63 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-03-05 19:31:38 to 2019-04-27 00:42:40, with a 73.63 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-03-20 11:14:03 to 2019-05-16 17:52:01, with a 73.63 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-03-23 13:30:21 to 2019-05-22 02:39:00, with a 73.63 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-04-17 22:09:31 to 2019-08-07 21:13:31, with a 56.12 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-09-22 04:16:09 to 2019-11-27 09:57:46, with a 85.44 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-09-22 22:59:28 to 2019-11-27 09:58:07, with a 112.66 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-09-23 13:59:03 to 2019-11-28 11:42:00, with a 58.44 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-09-23 13:59:03 to 2019-11-28 11:42:00, with a 132.49 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-10-09 15:28:24 to 2019-11-28 11:43:25, with a 63.91 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-10-09 15:28:24 to 2019-11-28 11:43:25, with a 147.05 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-10-22 12:54:02 to 2019-11-28 11:44:12, with a 60.85 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-10-22 12:54:02 to 2019-11-28 11:44:12, with a 147.05 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-10-30 09:59:33 to 2019-11-28 11:44:37, with a 76.83 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-10-30 09:59:33 to 2019-11-28 11:44:37, with a 155.27 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-04 04:32:54 to 2019-12-03 13:34:07, with a 89.34 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-04 04:32:54 to 2019-12-03 13:34:07, with a 170.46 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-15 16:13:28 to 2019-12-06 14:00:29, with a 102.12 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-15 16:13:28 to 2019-12-06 14:00:29, with a 170.46 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-24 20:04:48 to 2019-12-06 14:01:11, with a 112.42 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-24 20:04:48 to 2019-12-06 14:01:11, with a 194.09 percent difference from baseline.
+Anomaly of mean of ores_goodfaith detected for  during period from 2019-11-24 20:04:48 to 2019-12-06 14:01:11, with a 51.99 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-11-24 20:04:48 to 2019-12-06 14:01:11, with a 53.27 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-27 09:57:46 to 2019-12-17 15:25:51, with a 110.18 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-27 09:57:46 to 2019-12-17 15:25:51, with a 194.09 percent difference from baseline.
+Anomaly of mean of ores_goodfaith detected for  during period from 2019-11-27 09:57:46 to 2019-12-17 15:25:51, with a 51.16 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-11-27 09:57:46 to 2019-12-17 15:25:51, with a 53.27 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-27 09:58:07 to 2020-01-10 15:09:50, with a 98.86 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-27 09:58:07 to 2020-01-10 15:09:50, with a 193.67 percent difference from baseline.
+Anomaly of median of ores_goodfaith detected for  during period from 2019-11-27 09:58:07 to 2020-01-10 15:09:50, with a 53.27 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-28 11:42:00 to 2020-01-31 04:13:50, with a 79.43 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-28 11:42:00 to 2020-01-31 04:13:50, with a 162.24 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-28 11:43:25 to 2020-02-05 03:07:46, with a 66.93 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-28 11:43:25 to 2020-02-05 03:07:46, with a 147.47 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-28 11:44:12 to 2020-03-01 17:36:08, with a 51.25 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-28 11:44:12 to 2020-03-01 17:36:08, with a 83.76 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-11-28 11:44:37 to 2020-03-02 01:58:29, with a 65.48 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-11-28 11:44:37 to 2020-03-02 01:58:29, with a 147.47 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-12-03 13:34:07 to 2020-03-02 02:01:16, with a 72.64 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-12-03 13:34:07 to 2020-03-02 02:01:16, with a 190.08 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for  during period from 2019-12-06 14:00:29 to 2020-03-04 00:43:41, with a 53.94 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2019-12-06 14:00:29 to 2020-03-04 00:43:41, with a 84.60 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2020-01-31 04:13:50 to 2020-04-02 22:11:06, with a 55.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2020-02-05 03:07:46 to 2020-04-04 00:16:22, with a 55.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2020-03-01 17:36:08 to 2020-04-04 00:38:20, with a 55.70 percent difference from baseline.
+Anomaly of median of ores_damaging detected for  during period from 2020-03-02 01:58:29 to 2020-04-04 00:44:06, with a 55.70 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for BD2412 during period from 2019-10-10 03:35:02 to 2019-10-10 03:35:02, with a 53.49 percent difference from baseline.
+Anomaly of median of ores_damaging detected for BD2412 during period from 2019-10-10 03:35:02 to 2019-10-10 03:35:02, with a 53.49 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Lommaren during period from 2019-04-20 11:12:09 to 2019-04-20 11:12:09, with a 60.98 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Lommaren during period from 2019-04-20 11:12:09 to 2019-04-20 11:12:09, with a 69.23 percent difference from baseline.
+Anomaly of median of ores_damaging detected for The Drover's Wife during period from 2019-02-17 09:48:08 to 2019-02-17 09:48:08, with a 52.94 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Whispyhistory during period from 2020-04-05 18:02:50 to 2020-04-05 18:02:50, with a 116.95 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Whispyhistory during period from 2020-04-05 18:02:50 to 2020-04-05 18:02:50, with a 178.26 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Artoria2e5 during period from 2020-01-23 12:49:18 to 2020-01-23 12:49:18, with a 90.73 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Artoria2e5 during period from 2020-01-23 12:49:18 to 2020-01-23 12:49:18, with a 108.70 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Dishita Bhowmik during period from 2020-01-23 09:38:46 to 2020-01-23 09:38:46, with a 156.10 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Dishita Bhowmik during period from 2020-01-23 09:38:46 to 2020-01-23 09:38:46, with a 425.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Dishita Bhowmik during period from 2020-01-23 09:48:34 to 2020-01-23 09:48:34, with a 156.25 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Newyork45 during period from 2019-10-31 23:51:28 to 2019-10-31 23:51:28, with a 155.41 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Newyork45 during period from 2019-10-31 23:51:28 to 2019-10-31 23:51:28, with a 950.00 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Gderrin during period from 2020-05-29 21:56:12 to 2020-05-29 21:56:12, with a 57.14 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Gderrin during period from 2020-05-29 21:56:12 to 2020-05-29 21:56:12, with a 57.14 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for TylerKutschbach during period from 2019-07-19 01:28:35 to 2019-07-19 01:28:35, with a 58.30 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for TylerKutschbach during period from 2019-07-24 05:20:33 to 2019-07-24 05:20:33, with a 53.38 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Jacona during period from 2019-02-22 14:47:27 to 2019-02-22 14:47:27, with a 60.00 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Jacona during period from 2019-02-22 14:47:27 to 2019-02-22 14:47:27, with a 89.47 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for New3400 during period from 2020-04-19 19:45:41 to 2020-04-19 19:45:41, with a 63.15 percent difference from baseline.
+Anomaly of median of ores_damaging detected for New3400 during period from 2020-04-19 19:45:41 to 2020-04-19 19:45:41, with a 75.50 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Genericusername57 during period from 2019-04-24 23:25:33 to 2019-04-24 23:25:33, with a 130.01 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Genericusername57 during period from 2019-04-24 23:25:33 to 2019-04-24 23:25:33, with a 236.87 percent difference from baseline.
+Anomaly of mean of ores_damaging detected for Darth Mike during period from 2019-01-18 19:59:12 to 2019-01-18 19:59:12, with a 56.72 percent difference from baseline.
+Anomaly of median of ores_damaging detected for Darth Mike during period from 2019-01-18 19:59:12 to 2019-01-18 19:59:12, with a 66.67 percent difference from baseline.

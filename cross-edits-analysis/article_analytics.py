@@ -37,9 +37,9 @@ def main(argv):
     article_analysis_engine.set_key("article", "title")
     article_analysis_engine.open_log_file()
     article_analysis_engine.display_aggregate_stats()
-    #article_analysis_engine.iterate_per_key_self(article_analysis_engine.display_per_group_stats)
-    #article_analysis_engine.iterate_per_key_self(article_analysis_engine.plot_evolution_across_time)
-    article_analysis_engine.iterate_per_key_self(article_analysis_engine.sliding_window_analysis)
+    #article_analysis_engine.iterate_per_key(article_analysis_engine.display_per_group_stats)
+    #article_analysis_engine.iterate_per_key(article_analysis_engine.plot_evolution_across_time)
+    article_analysis_engine.iterate_per_key(article_analysis_engine.sliding_window_analysis)
 
     articles_with_non_zero_scores = []
     means = dict()
@@ -60,7 +60,7 @@ def main(argv):
                 means[column].append(non_zero_articles[column].mean())
                 medians[column].append(non_zero_articles[column].median())
 
-    article_analysis_engine.iterate_per_key_custom(compute_mean_and_median_non_zero)
+    article_analysis_engine.iterate_per_key(compute_mean_and_median_non_zero)
 
     # Distribution of mean and median scores across articles
     fig, axes = plt.subplots(2, len(columns))
