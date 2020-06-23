@@ -34,9 +34,9 @@ def main(argv):
 
     article_analysis_engine = engine.Engine()
     article_analysis_engine.get_command_line_input(argv)
+    article_analysis_engine.set_key("article", "title")
     article_analysis_engine.open_log_file()
     article_analysis_engine.display_aggregate_stats()
-    article_analysis_engine.set_key("article", "title")
     #article_analysis_engine.iterate_per_key_self(article_analysis_engine.display_per_group_stats)
     #article_analysis_engine.iterate_per_key_self(article_analysis_engine.plot_evolution_across_time)
     article_analysis_engine.iterate_per_key_self(article_analysis_engine.sliding_window_analysis)
